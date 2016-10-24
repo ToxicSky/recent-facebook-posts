@@ -4,7 +4,7 @@ Donate link: https://dannyvankooten.com/donate/
 Tags: facebook, posts, fb, widget, facebook widget, facebook posts
 Requires at least: 4.1
 Tested up to: 4.6.1
-Stable tag: 2.0.10
+Stable tag: 2.0.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -156,6 +156,13 @@ add_filter('rfbp_cache_time', 'my_rfbp_cache_time');
 3. This is where you'll find your Facebook Page Slug on Facebook.com.
 
 == Changelog ==
+
+
+### 2.0.11 - October 24, 2016
+
+**Fixes**
+
+- Fixed "undefined function" errors when using certain cache plugins.
 
 
 ### 2.0.10 - September 15, 2016
