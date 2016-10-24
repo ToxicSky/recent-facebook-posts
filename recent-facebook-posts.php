@@ -43,17 +43,18 @@ define( 'RFBP_PLUGIN_DIR', dirname( __FILE__ ) . '/' );
 function _rfbp_bootstrap() {
 
 	// Include Global code
-	require RFBP_PLUGIN_DIR . 'includes/functions/global.php';
+	require_once RFBP_PLUGIN_DIR . 'includes/functions/global.php';
+    require_once RFBP_PLUGIN_DIR . 'includes/functions/helpers.php';
+
+    // init
+    add_action( 'widgets_init', 'rfbp_register_widget' );
+    load_plugin_textdomain( 'recent-facebook-posts', false, basename( RFBP_PLUGIN_DIR ) . '/languages/' );
 
     $settings = rfbp_get_settings();
 
 	if( ! is_admin() ) {
-
 		// frontend requests
-		include_once RFBP_PLUGIN_DIR . 'includes/functions/helpers.php';
-		include_once RFBP_PLUGIN_DIR . 'includes/functions/template.php';
-		require RFBP_PLUGIN_DIR . 'includes/class-public.php';
-
+        require_once RFBP_PLUGIN_DIR . 'includes/class-public.php';
 		$rfbp_public = RFBP_Public::instance( $settings );
 		$rfbp_public->add_hooks();
 
