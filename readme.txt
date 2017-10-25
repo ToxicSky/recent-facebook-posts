@@ -3,8 +3,8 @@ Contributors: DvanKooten
 Donate link: https://dannyvankooten.com/donate/
 Tags: facebook, posts, fb, widget, facebook widget, facebook posts
 Requires at least: 4.1
-Tested up to: 4.6.1
-Stable tag: 2.0.11
+Tested up to: 4.8.2
+Stable tag: 2.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,9 +46,9 @@ If you have [created your own language pack](http://codex.wordpress.org/Translat
 **Other Links**
 
 * [Contribute to the Recent Facebook Posts plugin on GitHub](https://github.com/dannyvankooten/recent-facebook-posts)
+* Need a contact form on your site? [HTML Forms](https://wordpress.org/plugins/html-forms/) is great for that.
 * Using MailChimp to send out email newsletters? You should [try MailChimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/).
 * Want to boost your site's conversions? Have a look at the [Boxzilla pop-up plugin](https://wordpress.org/plugins/boxzilla/).
-* Follow [@DannyvanKooten](https://twitter.com/DannyvanKooten) or [@ibericode](https://twitter.com/ibericode) on Twitter.
 
 == Installation ==
 
@@ -156,6 +156,11 @@ add_filter('rfbp_cache_time', 'my_rfbp_cache_time');
 3. This is where you'll find your Facebook Page Slug on Facebook.com.
 
 == Changelog ==
+
+
+#### 2.0.12 - October 25, 2017
+
+Misc. textual improvements.
 
 
 ### 2.0.11 - October 24, 2016

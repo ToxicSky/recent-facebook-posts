@@ -3,7 +3,7 @@
 Plugin Name: Recent Facebook Posts
 Plugin URI: https://dannyvankooten.com/donate/
 Description: Lists most recent posts from a public Facebook page.
-Version: 2.0.11
+Version: 2.0.12
 Author: Danny van Kooten
 Author URI: https://dannyvankooten.com/
 Text Domain: recent-facebook-posts
@@ -11,7 +11,7 @@ Domain Path: /languages/
 License: GPL3 or later
 
 Recent Facebook Posts Plugin
-Copyright (C) 2012-2015, Danny van Kooten, support@dannyvankooten.com
+Copyright (C) 2012-2017, Danny van Kooten, support@dannyvankooten.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ if( ! defined( 'ABSPATH' ) ) {
 }
 
 // Plugin Constants
-define( 'RFBP_VERSION', '2.0.11' );
+define( 'RFBP_VERSION', '2.0.12' );
 define( 'RFBP_PLUGIN_DIR', dirname( __FILE__ ) . '/' );
 
 /**
