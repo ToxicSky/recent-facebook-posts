@@ -163,11 +163,15 @@
 			<ul class="ul-square">
 				<li>
 					<h4><a href="https://wordpress.org/plugins/mailchimp-for-wp/">MailChimp for WordPress</a></h4>
-					<p>By far the best MailChimp (newsletter) sign-up plugin for WordPress, with over half a million sites happily using it.</p>
+					<p>The best MailChimp (newsletter) plugin for WordPress, with over one million sites happily using it.</p>
 				</li>
+                <li>
+                    <h4><a href="https://wordpress.org/plugins/html-forms/">HTML Forms</a></h4>
+                    <p>Like Contact Form 7, but better.</p>
+                </li>
 				<li>
 					<h4><a href="https://wordpress.org/plugins/boxzilla/">Boxzilla Pop-Ups</a></h4>
-					<p>Need an unobtrusive conversion booster? This plugin offers an alternative to pop-ups. Highly converting yet not so annoying.</p>
+					<p>An alternative pop-up solution. Guaranteed to lift conversion rates.</p>
 				</li>
 			</ul>
 			</div>

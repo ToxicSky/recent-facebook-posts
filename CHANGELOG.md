@@ -1,6 +1,11 @@
 Changelog
 ============
 
+#### 2.0.12 - October 25, 2017
+
+Misc. textual improvements.
+
+
 ### 2.0.11 - October 24, 2016
 
 **Fixes**
